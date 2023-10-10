@@ -1,0 +1,58 @@
+body{
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+header nav ul li{
+    padding: 10px 15px;
+    display: block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+.topside{
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    padding: 10px;
+    color: white;
+}
+
+main{
+    background-color: orange;
+}
+
+.flex-container{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-container div{
+    padding: 10px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+span{
+    color: orange;
+}
