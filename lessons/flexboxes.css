@@ -6,9 +6,9 @@ body{
 .flex-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: flex-end;
-    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: cadetblue;
 }
 
