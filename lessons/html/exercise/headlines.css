@@ -1,4 +1,3 @@
-
 body{
     width: 75%;
     margin: auto;
@@ -56,6 +55,36 @@ footer{
 
 span{
     color: orange;
+}
+
+
+main p{
+    padding: 10px;
+}
+
+form{
+    padding: 10px;
+}
+
+form input{
+    margin: 10px;
+}
+
+.logo-holder{
+    display: flex;
+    align-items: baseline;
+}
+
+.logo{
+    width: 50px;
+}
+
+.flex-container div{
+    width: 20%;
+}
+
+img{
+    width: 100%;
 }
 
 @media only screen and (max-width: 425px) {
@@ -123,6 +152,20 @@ span{
         color: orange;
     }
 
+    form{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form input{
+        margin: 10px;
+    }
+
+    .logo-holder{
+        justify-content: center;
+    }
 }
 
 
