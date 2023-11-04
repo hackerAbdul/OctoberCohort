@@ -8,7 +8,6 @@ const myName = 2
 console.log(myName)
 
 var name = "abdulkadir"
-console.log(today)
 
 let tomorrow = "Wednesday"
 console.log(tomorrow);
