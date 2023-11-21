@@ -34,15 +34,15 @@
 
 
 
-// if(typeof name === "string" && (name.length<15)){
-//     if(name.toLowerCase() === "john" || name.toLowerCase() === "johnathan"){
-//         console.log("Welcome back John")
-//     }else{
-//         console.log("Sorry i do not recognise you")
-//     }
-// }else{
-//     console.log("Error")
-// }
+if(typeof name === "string" && (name.length<15)){
+    if(name.toLowerCase() === "john" || name.toLowerCase() === "johnathan"){
+        console.log("Welcome back John")
+    }else{
+        console.log("Sorry i do not recognise you")
+    }
+}else{
+    console.log("Error")
+}
 
 
 // //-------------- Switch Cases
